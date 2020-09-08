@@ -23,7 +23,7 @@ def summon_captain_planet(planeteer_calls)
  index = 0 
  
  while index < small_calls.length do 
-   new_array << small_calls[index] + other_calls[index]
+   new_array << small_calls[index] && other_calls[index]
    index += 1 
  end 
  new_array
