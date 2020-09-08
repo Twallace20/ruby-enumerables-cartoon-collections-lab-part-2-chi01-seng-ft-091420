@@ -18,7 +18,14 @@ def summon_captain_planet(planeteer_calls)
   # Return a new array of the results
   
  small_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+ new_array = []
+ index = 0 
  
+ while index < array.length do 
+   new_array << array[index]
+   index += 1 
+ end 
+ new_array
   
 end
 
