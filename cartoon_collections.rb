@@ -17,8 +17,8 @@ def summon_captain_planet(planeteer_calls)
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
   
- (summon_captain_planet(small_calls)) = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
- (summon_captain_planet(other_calls)) = ["Plants!", "Humans!", "Mushrooms!", "Brains!"]
+ summon_captain_planet(small_calls) = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+ summon_captain_planet(other_calls) = ["Plants!", "Humans!", "Mushrooms!", "Brains!"]
 
   
 end
